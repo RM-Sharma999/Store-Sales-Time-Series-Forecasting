@@ -76,6 +76,8 @@ The bar chart shows a strong weekly seasonality in sales. Weekends dominate with
 <img width="552" height="521" alt="image" src="https://github.com/user-attachments/assets/ba22483e-c9b6-4f8b-b4d5-6a0482b76124" />
 
 ### Promotion Impact
+The plot shows a strong positive impact of promotions on sales. Promotional days (Promotion = True) have significantly higher sales volumes and wider distribution compared to non-promotional days. While non-promotion days mostly record low sales, promotions frequently drive much larger volumes (with some outliers). This confirms promotions as a critical feature for time series forecasting models.
 
-### Transactions vs Sales
+<img width="876" height="547" alt="image" src="https://github.com/user-attachments/assets/4bafec56-2a3f-4656-baa7-b910e8b8dfa1" />
+
 
