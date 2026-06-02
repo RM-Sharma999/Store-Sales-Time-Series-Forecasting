@@ -70,7 +70,12 @@ The time series plots for mid and high-volume product families reveal strong wee
   </tr>
 </table>
 
+### Weekly Pattern
+The bar chart shows a strong weekly seasonality in sales. Weekends dominate with the highest average sales on Sunday (~460) and Saturday (~430), while weekdays are lower, with Thursday recording the lowest (~280). This clear weekend spike is a key pattern that should be accounted for in time series forecasting models.
 
-Weekly Pattern
-Promotion Impact
-Transactions vs Sales
+<img width="552" height="521" alt="image" src="https://github.com/user-attachments/assets/ba22483e-c9b6-4f8b-b4d5-6a0482b76124" />
+
+### Promotion Impact
+
+### Transactions vs Sales
+
