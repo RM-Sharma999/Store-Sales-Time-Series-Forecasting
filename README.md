@@ -52,13 +52,15 @@ The bar chart shows the total sales volume across different product families. Gr
 
 <img width="1040" height="700" alt="image" src="https://github.com/user-attachments/assets/b9adb55d-c800-44a0-ae88-884113aa92fc" />
 
-### Product Family Sales Patterns (Low/Mid/High together)
+### Product Family Sales Patterns (Mid & High-Volume)
+The time series plots for mid and high-volume product families reveal strong weekly seasonality with prominent weekend spikes. Grocery I clearly dominates with the highest daily sales (often exceeding 400k units), followed by Beverages, Produce, and Cleaning. Other families like Poultry, Dairy, and Bread/Bakery show moderate volumes, while lower-volume categories (not shown here) tend to be more volatile. Occasional zero-sale periods indicate missing data or closures that should be addressed in preprocessing for robust forecasting.
+
 <table>
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/05cd07e1-4dc5-43d6-bfea-3a261a29699a" width="100%">
       <br>
-      <b>Medium-Volume Product Family</b>
+      <b>Mid-Volume Product Family</b>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/00b28ab5-d712-41f9-bd4f-fefd34ad3463" width="100%">
