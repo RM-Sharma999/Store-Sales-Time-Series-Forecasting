@@ -52,8 +52,11 @@ The bar chart shows the total sales volume across different product families. Gr
 
 <img width="1040" height="700" alt="image" src="https://github.com/user-attachments/assets/b9adb55d-c800-44a0-ae88-884113aa92fc" />
 
+### Product Family Sales Patterns (Low/Mid/High together)
+<img width="800" height="470" alt="image" src="https://github.com/user-attachments/assets/00b28ab5-d712-41f9-bd4f-fefd34ad3463" />
+<img width="791" height="470" alt="image" src="https://github.com/user-attachments/assets/05cd07e1-4dc5-43d6-bfea-3a261a29699a" />
 
-Product Family Sales Patterns (Low/Mid/High together)
+
 Weekly Pattern
 Promotion Impact
 Transactions vs Sales
