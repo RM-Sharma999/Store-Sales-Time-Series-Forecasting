@@ -42,8 +42,13 @@ The dataset used in this project is the **Corporación Favorita Store Sales** da
 
 Exploratory Data Analysis was performed to uncover sales patterns, understand demand behavior across product families, and evaluate factors that influence store sales. The analysis examined seasonality, promotions, holidays, customer transactions, and oil prices to identify trends and relationships that could improve forecasting performance.
 
-Total Sales Over Time
-Total Sales by Family
+### Total Sales Over Time
+Total sales show a clear upward trend from 2013 to 2017, indicating overall business growth. Regular fluctuations suggest strong seasonal patterns and recurring demand cycles, making time series forecasting an appropriate approach for predicting future sales.
+
+<img width="981" height="441" alt="image" src="https://github.com/user-attachments/assets/6c779685-2d61-41cd-a6be-cea1c2aaf99d" />
+
+### Total Sales by Family
+
 Product Family Sales Patterns (Low/Mid/High together)
 Weekly Pattern
 Promotion Impact
