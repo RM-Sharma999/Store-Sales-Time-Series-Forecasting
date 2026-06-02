@@ -56,14 +56,14 @@ The bar chart shows the total sales volume across different product families. Gr
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/00b28ab5-d712-41f9-bd4f-fefd34ad3463" width="100%">
-      <br>
-      <b>High-Volume Product Family</b>
-    </td>
-    <td align="center">
       <img src="https://github.com/user-attachments/assets/05cd07e1-4dc5-43d6-bfea-3a261a29699a" width="100%">
       <br>
       <b>Medium-Volume Product Family</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/00b28ab5-d712-41f9-bd4f-fefd34ad3463" width="100%">
+      <br>
+      <b>High-Volume Product Family</b>
     </td>
   </tr>
 </table>
