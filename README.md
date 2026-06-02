@@ -82,13 +82,15 @@ The plot shows a strong positive impact of promotions on sales. Promotional days
 
 ---
 
-## Modeling & Forecasting
-Two modeling approaches were implemented using Prophet to forecast store sales:
+## Modeling
+Two separate modeling approaches were implemented using Prophet for store sales forecasting:
 
 * **Baseline Model**: Utilized **date**, **product family**, and **holiday effects** (generated using the `holidays` Python library) to capture trends, seasonality, and holiday impacts.
 * **Advanced Model**: Developed separately with richer feature engineering, incorporating **promotions**, **store_nbr**, and additional data from stores, transactions, and oil price dataframes. This enabled the model to account for store-specific behavior and external economic factors.
 
 ---
+
+## Forecasting
 
 ## Results
 
