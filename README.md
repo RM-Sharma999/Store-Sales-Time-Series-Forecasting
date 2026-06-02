@@ -91,6 +91,9 @@ Two separate modeling approaches were implemented using Prophet for store sales 
 ---
 
 ## Forecasting
+Both models were used to generate future sales predictions. The **Advanced Model** demonstrated superior performance by better handling promotional effects, store differences, and external variables compared to the baseline.
+
+---
 
 ## Results
 
