@@ -36,3 +36,8 @@ The dataset used in this project is the **Corporación Favorita Store Sales** da
 * Model Evaluation
 * Future Sales Prediction
 
+---
+
+## Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was performed to uncover sales patterns, understand demand behavior across product families, and evaluate factors that influence store sales. The analysis examined seasonality, promotions, holidays, customer transactions, and oil prices to identify trends and relationships that could improve forecasting performance.
