@@ -48,6 +48,10 @@ Total sales show a clear upward trend from 2013 to 2017, indicating overall busi
 <img width="981" height="441" alt="image" src="https://github.com/user-attachments/assets/6c779685-2d61-41cd-a6be-cea1c2aaf99d" />
 
 ### Total Sales by Family
+The bar chart shows the total sales volume across different product families. Grocery I is the clear leader with over 340 million units sold, followed by Beverages (~230M) and Produce (~140M), while many categories like Books, Baby Care, and Hardware contribute negligibly.
+
+<img width="1040" height="700" alt="image" src="https://github.com/user-attachments/assets/b9adb55d-c800-44a0-ae88-884113aa92fc" />
+
 
 Product Family Sales Patterns (Low/Mid/High together)
 Weekly Pattern
