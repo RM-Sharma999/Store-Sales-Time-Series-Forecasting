@@ -91,7 +91,13 @@ Two separate modeling approaches were implemented using Prophet for store sales 
 ---
 
 ## Forecasting
-Both models were used to generate future sales predictions. The **Advanced Model** displayed superb performance by better handling promotional effects, store differences, and external variables compared to the baseline.
+Forecasts were generated for the test period on top product families using both Prophet models.
+
+### Baseline Model
+
+<img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/996ba821-5fc6-4b72-a5fe-1fb41e5be1f5" />
+
+### Advanced Model
 
 ---
 
