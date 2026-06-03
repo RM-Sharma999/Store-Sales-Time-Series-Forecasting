@@ -91,13 +91,15 @@ Two separate modeling approaches were implemented using Prophet for store sales 
 ---
 
 ## Forecasting
-Forecasts were generated for the test period using both Prophet models. Below are sample future sales forecasts for the Beverages product family:
+Forecasts were generated for the test period using both Baseline and Advanced Prophet models. Below are sample future sales forecasts for the Beverages product family:
 
 ### Baseline Model
+The **Baseline Model** was able to capture the general trend and weekly seasonality but showed limitations in handling sudden drops and promotional effects.
 
 <img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/996ba821-5fc6-4b72-a5fe-1fb41e5be1f5" />
 
 ### Advanced Model
+The **Advanced Model** produced more accurate and stable forecasts by better incorporating promotions, store-specific patterns, and external factors.
 
 <img width="1034" height="547" alt="image" src="https://github.com/user-attachments/assets/86fafa2f-4df8-4d62-a8ee-63093326110c" />
 
