@@ -1,6 +1,6 @@
 # Store Sales Time Series Forecasting
 
-Accurate sales forecasting helps retailers optimize inventory, reduce waste, and make informed decisions. This project uses the **Corporación Favorita Store Sales** dataset from Kaggle to analyze historical sales patterns and forecast future demand across product families. Through **exploratory data analysis(EDA)**, **feature engineering**, and **time series forecasting** techniques, the project identifies key factors influencing sales performance and generates actionable forecasts.
+Accurate sales forecasting helps retailers optimize inventory, reduce waste, and make informed decisions. This project uses the **Corporación Favorita Store Sales** dataset from Kaggle to analyze historical sales patterns and forecast future demand across product families. Through **exploratory data analysis(EDA)**, **feature engineering**, and **time series forecasting**, the project identifies key factors influencing sales performance and generates actionable forecasts.
 
 ---
 
