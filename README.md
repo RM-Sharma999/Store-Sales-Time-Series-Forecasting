@@ -114,5 +114,3 @@ The **Advanced Model** significantly outperformed the **Baseline Model** by deli
 
 ## Conclusion
 This project demonstrates that while a **Baseline** Prophet model using `date`, `product family`, and `holidays` captures core trends and seasonality effectively, the **Advanced Model** significantly improves forecasting accuracy by incorporating `promotions`, `store_nbr`, and external data sources.
-
-Overall, rich feature engineering proves essential for handling the highly seasonal and promotion-driven nature of retail sales.
