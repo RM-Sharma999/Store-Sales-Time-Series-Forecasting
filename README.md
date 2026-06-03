@@ -1,6 +1,6 @@
 # Store Sales Time Series Forecasting
 
-Accurate sales forecasting helps retailers optimize inventory, reduce waste, and make informed decisions. This project uses the **Corporación Favorita Store Sales** dataset from Kaggle to analyze historical sales patterns and forecast future demand across product families. Through **exploratory data analysis(EDA)**, **feature engineering**, and **time series forecasting**, the project identifies key factors influencing sales performance and generates actionable forecasts.
+Accurate sales forecasting helps retailers optimize inventory, reduce waste, and make informed decisions. This project uses the **Corporación Favorita Store Sales** dataset from Kaggle to analyze historical sales patterns and forecast future demand across product families. Through **exploratory data analysis (EDA)**, **feature engineering**, and **time series forecasting**, the project identifies key factors influencing sales performance and generates actionable forecasts.
 
 ---
 
@@ -16,14 +16,14 @@ Accurate sales forecasting helps retailers optimize inventory, reduce waste, and
 
 ## Dataset
 
-The dataset used in this project is the **Corporación Favorita Store Sales** dataset from the [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview). It contains historical sales data and insights on **stores**, **promotions**, **holidays**, **transactions**, and **oil prices**.
+The dataset used in this project is the **Corporación Favorita Store Sales** dataset from the [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview). It contains historical sales data and insights on `stores`, `promotions`, `holidays`, `transactions`, and `oil prices`.
 
-* **train.csv** – Historical sales data used for **analysis** and **model training**.
-* **test.csv** – Data for the forecast period with **no sales values**.
-* **stores.csv** – Metadata describing **store characteristics**.
-* **oil.csv** – Daily **oil prices**, an external economic indicator.
-* **holidays_events.csv** – Information on **holidays** and **special events**.
-* **transactions.csv** – Daily **transaction counts** for each store.
+* **train.csv** – Historical sales data used for analysis and model training.
+* **test.csv** – Data for the forecast period with no sales values.
+* **stores.csv** – Metadata describing store characteristics.
+* **oil.csv** – Daily oil prices, an external economic indicator.
+* **holidays_events.csv** – Information on holidays and special events.
+* **transactions.csv** – Daily transaction counts for each store.
 
 ---
 
@@ -86,7 +86,7 @@ The plot shows a **strong positive impact of promotions on sales**. Promotional 
 Two separate modeling approaches were implemented using Prophet for store sales forecasting:
 
 * **Baseline Model**: Utilized date, product family, and **holiday effects** (generated using the `holidays` Python library) to capture trends, seasonality, and holiday impacts.
-* **Advanced Model**: Developed separately with richer feature engineering, incorporating **promotions**, **store_nbr**, and additional data from stores, transactions, and oil price dataframes. This enabled the model to account for store-specific behavior and external economic factors.
+* **Advanced Model**: Developed separately with richer feature engineering, incorporating `promotions`, `store_nbr`, and additional data from stores, transactions, and oil price dataframes. This enabled the model to account for store-specific behavior and external economic factors.
 
 ---
 
@@ -113,4 +113,4 @@ The **Advanced Model significantly outperformed the Baseline Model** by deliveri
 ---
 
 ## Conclusion
-This project demonstrates that while a Baseline Prophet model using `date`, `product family`, and `holidays` captures core trends and seasonality effectively, the **Advanced Model significantly improves forecasting accuracy** by incorporating`promotions`, `store_nbr`, and external data sources.
+This project demonstrates that while a Baseline Prophet model using `date`, `product family`, and `holidays` captures core trends and seasonality effectively, the **Advanced Model significantly improves forecasting accuracy** by incorporating `promotions`, `store_nbr`, and external data sources.
