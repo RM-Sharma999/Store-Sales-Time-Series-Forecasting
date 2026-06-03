@@ -85,7 +85,7 @@ The plot shows a **strong positive impact of promotions on sales**. Promotional 
 ## Modeling
 Two separate modeling approaches were implemented using Prophet for store sales forecasting:
 
-* **Baseline Model**: Utilized **date**, **product family**, and **holiday effects** (generated using the `holidays` Python library) to capture trends, seasonality, and holiday impacts.
+* **Baseline Model**: Utilized date, product family, and **holiday effects** (generated using the `holidays` Python library) to capture trends, seasonality, and holiday impacts.
 * **Advanced Model**: Developed separately with richer feature engineering, incorporating **promotions**, **store_nbr**, and additional data from stores, transactions, and oil price dataframes. This enabled the model to account for store-specific behavior and external economic factors.
 
 ---
@@ -94,23 +94,23 @@ Two separate modeling approaches were implemented using Prophet for store sales 
 Forecasts were generated for the test period using both **Baseline** and **Advanced** Prophet models. Below are sample future sales forecasts for the **Beverages** product family:
 
 ### Baseline Model
-The **Baseline Model** was able to capture the general trend and weekly seasonality but showed limitations in handling sudden drops and promotional effects.
+The Baseline Model was able to capture the **general trend** and **weekly seasonality** but showed limitations in handling sudden drops and promotional effects.
 
 <img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/996ba821-5fc6-4b72-a5fe-1fb41e5be1f5" />
 
 ### Advanced Model
-The **Advanced Model** produced more accurate and stable forecasts by better incorporating promotions, store-specific patterns, and external factors.
+The Advanced Model produced **more accurate** and **stable forecasts** by better incorporating promotions, store-specific patterns, and external factors.
 
 <img width="1034" height="547" alt="image" src="https://github.com/user-attachments/assets/86fafa2f-4df8-4d62-a8ee-63093326110c" />
 
 ---
 
 ## Results
-The **Advanced Model** significantly outperformed the **Baseline Model** by delivering more accurate forecasts, particularly for high-volume families. As shown in the plot below for Beverages, it better captured promotional spikes, weekly seasonality, and store-level variations through the inclusion of `promotions`, `store_nbr`, and external data (stores, transactions, and oil prices), while the Baseline Model struggled with volatility.
+The **Advanced Model significantly outperformed the Baseline Model** by delivering more accurate forecasts, particularly for high-volume families. As shown in the plot below for Beverages, it better captured **promotional spikes**, **weekly seasonality**, and store-level variations through the inclusion of `promotions`, `store_nbr`, and external data (stores, transactions, and oil prices), while the Baseline Model struggled with volatility.
 
 <img width="1031" height="470" alt="image" src="https://github.com/user-attachments/assets/c61de545-6310-43cb-87c8-0a1912d2c58e" />
 
 ---
 
 ## Conclusion
-This project demonstrates that while a **Baseline** Prophet model using `date`, `product family`, and `holidays` captures core trends and seasonality effectively, the **Advanced Model** significantly improves forecasting accuracy by incorporating `promotions`, `store_nbr`, and external data sources.
+This project demonstrates that while the **Baseline Prophet model** captures core trends and seasonality effectively, the **Advanced Model significantly improves forecasting accuracy** by incorporating `promotions`, `store_nbr`, and external data sources.
