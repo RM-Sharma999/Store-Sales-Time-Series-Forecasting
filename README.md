@@ -43,17 +43,17 @@ The dataset used in this project is the **Corporación Favorita Store Sales** da
 Exploratory Data Analysis was performed to uncover sales patterns, understand demand behavior across product families, and evaluate factors that influence store sales. The analysis examined seasonality, promotions, holidays, customer transactions, and oil prices to identify trends and relationships that could improve forecasting performance.
 
 ### Total Sales Over Time
-Total sales show a clear upward trend from 2013 to 2017, indicating overall business growth. Regular fluctuations suggest strong seasonal patterns and recurring demand cycles, making time series forecasting an appropriate approach for predicting future sales.
+Total sales show a clear **upward trend from 2013 to 2017**, indicating overall business growth. Regular fluctuations suggest strong seasonal patterns and recurring demand cycles, making time series forecasting an appropriate approach for predicting future sales.
 
 <img width="981" height="441" alt="image" src="https://github.com/user-attachments/assets/6c779685-2d61-41cd-a6be-cea1c2aaf99d" />
 
 ### Total Sales by Family
-The bar chart shows the total sales volume across different product families. Grocery I is the clear leader with over 340 million units sold, followed by Beverages (~230M) and Produce (~140M), while many categories like Books, Baby Care, and Hardware contribute negligibly.
+The bar chart shows the total sales volume across different product families. **Grocery I is the highest-selling product family**, followed by Beverages (~230M) and Produce (~140M), while categories such as Books, Baby Care, and Hardware contribute minimally.
 
 <img width="1040" height="700" alt="image" src="https://github.com/user-attachments/assets/b9adb55d-c800-44a0-ae88-884113aa92fc" />
 
 ### Product Family Sales Patterns (Mid & High-Volume)
-The time series plots for mid and high-volume product families reveal strong weekly seasonality with prominent weekend spikes. Grocery I clearly dominates with the highest daily sales (often exceeding 400k units), followed by Beverages, Produce, and Cleaning. Other families like Poultry, Dairy, and Bread/Bakery show moderate volumes, while lower-volume categories (not shown here) tend to be more volatile. Occasional zero-sale periods indicate missing data or closures that should be addressed in preprocessing for robust forecasting.
+The time series plots for mid and high-volume product families reveal **strong weekly seasonality with prominent weekend spikes**. Grocery I clearly dominates with the highest daily sales (often exceeding 400k units), followed by Beverages, Produce, and Cleaning. Other families like Poultry, Dairy, and Bread/Bakery show moderate volumes, while lower-volume categories (not shown here) tend to be more volatile. Occasional zero-sale periods indicate missing data or closures that should be addressed in preprocessing for robust forecasting.
 
 <table>
   <tr>
@@ -71,12 +71,12 @@ The time series plots for mid and high-volume product families reveal strong wee
 </table>
 
 ### Weekly Pattern
-The bar chart shows a strong weekly seasonality in sales. Weekends dominate with the highest average sales on Sunday (~460) and Saturday (~430), while weekdays are lower, with Thursday recording the lowest (~280). This clear weekend spike is a key pattern that should be accounted for in time series forecasting models.
+The bar chart shows a **strong weekly seasonality in sales**. Weekends dominate with the highest average sales on Sunday (~460) and Saturday (~430), while weekdays are lower, with Thursday recording the lowest (~280). This clear **weekend spike** is a key pattern that should be accounted for in time series forecasting models.
 
 <img width="552" height="521" alt="image" src="https://github.com/user-attachments/assets/ba22483e-c9b6-4f8b-b4d5-6a0482b76124" />
 
 ### Promotion Impact
-The plot shows a strong positive impact of promotions on sales. Promotional days have significantly higher sales volumes and wider distribution compared to non-promotional days. While non-promotion days mostly record low sales, promotions frequently drive much larger volumes (with some outliers). This confirms promotions as a critical feature for time series forecasting models.
+The plot shows a **strong positive impact of promotions on sales**. Promotional days have significantly higher sales volumes and wider distribution compared to non-promotional days. While non-promotion days mostly record low sales, promotions frequently drive much larger volumes (with some outliers). This confirms promotions as a critical feature for time series forecasting models.
 
 <img width="876" height="547" alt="image" src="https://github.com/user-attachments/assets/4bafec56-2a3f-4656-baa7-b910e8b8dfa1" />
 
