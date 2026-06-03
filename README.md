@@ -18,12 +18,12 @@ Accurate sales forecasting helps retailers optimize inventory, reduce waste, and
 
 The dataset used in this project is the **Corporación Favorita Store Sales** dataset from the [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview). It contains historical sales data and insights on **stores**, **promotions**, **holidays**, **transactions**, and **oil prices**.
 
-* **train.csv** – Historical sales data used for analysis and model training.
-* **test.csv** – Data for the forecast period with sales values removed.
-* **stores.csv** – Metadata describing store characteristics.
-* **oil.csv** – Daily oil prices, an external economic indicator.
-* **holidays_events.csv** – Information on holidays and special events.
-* **transactions.csv** – Daily transaction counts for each store.
+* **train.csv** – Historical sales data used for **analysis** and **model training**.
+* **test.csv** – Data for the forecast period with **no sales values**.
+* **stores.csv** – Metadata describing **store characteristics**.
+* **oil.csv** – Daily **oil prices**, an external economic indicator.
+* **holidays_events.csv** – Information on **holidays** and **special events**.
+* **transactions.csv** – Daily **transaction counts** for each store.
 
 ---
 
