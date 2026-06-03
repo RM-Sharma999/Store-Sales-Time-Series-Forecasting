@@ -113,4 +113,4 @@ The **Advanced Model significantly outperformed the Baseline Model** by deliveri
 ---
 
 ## Conclusion
-This project demonstrates that while the **Baseline Prophet model** captures core trends and seasonality effectively, the **Advanced Model significantly improves forecasting accuracy** by incorporating `promotions`, `store_nbr`, and external data sources.
+This project demonstrates that while a Baseline Prophet model using `date`, `product family`, and `holidays` captures core trends and seasonality effectively, the **Advanced Model significantly improves forecasting accuracy** by incorporating`promotions`, `store_nbr`, and external data sources.
