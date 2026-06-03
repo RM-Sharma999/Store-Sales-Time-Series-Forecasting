@@ -6,11 +6,11 @@ Accurate sales forecasting helps retailers optimize inventory, reduce waste, and
 
 ## Objectives
 
-* Analyze historical sales trends and seasonal patterns.
-* Explore the impact of promotions, holidays, and other external factors on sales.
-* Build and evaluate time series forecasting models.
-* Forecast future sales across product families.
-* Generate insights to support data-driven retail planning.
+* Analyze **historical sales trends** and **seasonal patterns**.
+* Explore the impact of **promotions**, **holidays**, and other external factors on sales.
+* Build and evaluate **time series forecasting models**.
+* Forecast future sales across **product families**.
+* Generate insights to support **data-driven retail planning**.
 
 ---
 
