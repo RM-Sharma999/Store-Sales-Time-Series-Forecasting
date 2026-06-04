@@ -106,7 +106,7 @@ The Advanced Model produced **more accurate** and **stable forecasts** by better
 ---
 
 ## Results
-The **Advanced Model significantly outperformed the Baseline Model** by delivering more accurate forecasts, particularly for high-volume families. As shown in the plot below for Beverages, it better captured **promotional spikes**, **weekly seasonality**, and store-level variations through the inclusion of `promotions`, `store_nbr`, and external data (stores, transactions, and oil prices), while the Baseline Model struggled with volatility.
+The **Advanced Model outperformed the Baseline Model** by producing forecasts that more closely followed actual sales patterns. It effectively captured **weekly seasonality** and overall demand trends while delivering more stable predictions. The inclusion of `promotions`, `store_nbr`, and external data helped improve forecast accuracy and better represent store-level behavior.
 
 <img width="1031" height="470" alt="image" src="https://github.com/user-attachments/assets/c61de545-6310-43cb-87c8-0a1912d2c58e" />
 
