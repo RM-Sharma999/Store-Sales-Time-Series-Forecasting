@@ -53,7 +53,7 @@ The bar chart shows the total sales volume across different product families. **
 <img width="1040" height="700" alt="image" src="https://github.com/user-attachments/assets/b9adb55d-c800-44a0-ae88-884113aa92fc" />
 
 ### Product Family Sales Patterns (Mid & High-Volume)
-The time series plots for **mid- and high-volume product families** reveal **strong seasonal demand patterns** across categories. High-volume families exhibit larger and more stable sales levels, while mid-volume families show greater variability. These differences highlight the importance of incorporating **family-specific behavior** into forecasting models.
+The time series plots for **mid- and high-volume product families** reveal **strong seasonal demand patterns** across categories. High-volume families exhibit larger and more stable sales levels, while mid-volume families show greater variability. These differences highlight the importance of including **family-specific behavior** into forecasting models.
 
 <table>
   <tr>
