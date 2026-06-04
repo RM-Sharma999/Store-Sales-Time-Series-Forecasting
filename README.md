@@ -45,7 +45,7 @@ Exploratory Data Analysis was performed to uncover sales patterns, understand de
 ### Total Sales Over Time
 Total sales show a clear **upward trend from 2013 to 2017**, indicating overall business growth. Regular fluctuations suggest strong seasonal patterns and recurring demand cycles, making time series forecasting an appropriate approach for predicting future sales.
 
-<img width="981" height="441" alt="image" src="https://github.com/user-attachments/assets/6c779685-2d61-41cd-a6be-cea1c2aaf99d" />
+<img width="981" height="441" alt="image" src="https://github.com/user-attachments/assets/6974c49d-061d-48e8-ba65-6dcc34d908bb" />
 
 ### Total Sales by Family
 The bar chart shows the total sales volume across different product families. **Grocery I is the highest-selling product family**, followed by Beverages (~230M) and Produce (~140M), while categories such as Books, Baby Care, and Hardware contribute minimally.
@@ -53,7 +53,7 @@ The bar chart shows the total sales volume across different product families. **
 <img width="1040" height="700" alt="image" src="https://github.com/user-attachments/assets/b9adb55d-c800-44a0-ae88-884113aa92fc" />
 
 ### Product Family Sales Patterns (Mid & High-Volume)
-The time series plots for mid and high-volume product families reveal **strong weekly seasonality with prominent weekend spikes**. Grocery I clearly dominates with the highest daily sales (often exceeding 400k units), followed by Beverages, Produce, and Cleaning. Other families like Poultry, Dairy, and Bread/Bakery show moderate volumes, while lower-volume categories (not shown here) tend to be more volatile. Occasional zero-sale periods indicate missing data or closures that should be addressed in preprocessing for robust forecasting.
+The time series plots for **mid- and high-volume product families** reveal **strong seasonal demand patterns** across product categories. High-volume families exhibit larger and more stable sales levels, while mid-volume families show greater variability. These differences highlight the importance of incorporating **family-specific sales behavior** into forecasting models.
 
 <table>
   <tr>
