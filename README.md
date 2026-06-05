@@ -106,7 +106,7 @@ The Advanced Model produced **more accurate** and **stable forecasts** by better
 ---
 
 ## Results
-The **Advanced Model outperformed the Baseline Model** by better capturing weekly seasonality, demand trends, and store-level sales behavior. By incorporating `promotions`, `store_nbr`, and external data, it produced more accurate and stable forecasts that closely followed actual sales patterns. On the validation dataset, the model achieved a **WMAPE of 9.99%**, **MAPE of 21.64%**, and **RMSE of 7,494**, indicating strong overall forecasting performance across all product families.
+The **Advanced Model outperformed the Baseline Model** by better capturing weekly seasonality, demand trends, and store-level sales behavior. By incorporating `promotions`, `store_nbr`, and external data, it produced more accurate and stable forecasts that closely followed actual sales patterns. On the validation dataset, the model achieved a **WMAPE of 9.99%**, **MAPE of 21.64%**, and **RMSE of 7,494**, indicating strong overall performance across all product families.
 
 <img width="1031" height="470" alt="image" src="https://github.com/user-attachments/assets/9812d352-b00c-4c09-ae6a-0a4bac359e38" />
 
