@@ -124,3 +124,12 @@ This project demonstrates that while a Baseline Prophet model using `date`, `pro
 - **Data Visualization:** `Matplotlib`, `Seaborn`
 - **Time Series Forecasting:** `Prophet`
 - **Model Evaluation:** `Scikit-learn`
+
+---
+
+## Key Takeaways
+
+- Sales showed strong **weekly seasonality**, with demand peaking on weekends.
+- **Promotions** significantly increased sales and improved forecast accuracy.
+- Combining multiple data sources improved **forecast reliability**.
+- The forecasting pipeline achieved a **WMAPE of 9.99%** across all product families.
