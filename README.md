@@ -114,3 +114,13 @@ The **Advanced Model outperformed the Baseline Model** by better capturing weekl
 
 ## Conclusion
 This project demonstrates that while a Baseline Prophet model using `date`, `product family`, and `holidays` captures core trends and seasonality effectively, the **Advanced Model significantly improves forecasting accuracy** by incorporating `promotions`, `store_nbr`, and external data sources.
+
+---
+
+## Technologies Used
+
+- **Programming Language:** `Python`
+- **Data Analysis:** `Pandas`, `NumPy`
+- **Data Visualization:** `Matplotlib`, `Seaborn`
+- **Time Series Forecasting:** `Prophet`
+- **Model Evaluation:** `Scikit-learn`
